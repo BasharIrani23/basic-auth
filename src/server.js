@@ -16,7 +16,7 @@ const userRouter = require("./auth/router");
 app.get("/", (req, res) => {
     res.status(200).json({
         code: 200,
-        message: "WELCOME!!!!",
+        message: "Welcome to the Home Page !",
     });
 });
 
